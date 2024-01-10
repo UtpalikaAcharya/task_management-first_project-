@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="C:\Users\hp\Desktop\task_management\feedback_page_css.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rubik+Doodle+Shadow&family=Single+Day&display=swap" rel="stylesheet">
+  <title>Feedback</title>
+  
+</head>
+</style>
+</head>
+<body class="main">  
+  <form  id="f1"action="/submit-feedback" method="post">
+    <h2>FEEDBACK</h2>
+    <label for="rating">How do you rate your overall experience?</label><br>
+    <select id="rating" name="rating">
+      <option value="bad">Bad</option>
+      <option value="average">Average</option>
+      <option value="good">Good</option>
+    </select><br>
+    <label for="feedback">Comments:</label><br>
+    <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <button class="button-30" role="button">Submit</button>
+  </form>
+</body>
+</html>
